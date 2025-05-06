@@ -19,3 +19,10 @@ based on <a href="https://github.com/vinayshanbhag/10Hz-100KHz-LNA/blob/main/an-
 
 ### Input referred noise (measured)
 <img src="https://raw.githubusercontent.com/vinayshanbhag/10Hz-100KHz-LNA/refs/heads/main/noise_short.png" width="900"/>
+
+| Power Supply | Noise spec | Measured (HP34401A) |
+|--------------|------------|---------------------|
+| HP6114A      | 40uVrms at any line voltage and under any load condition within rating   | 48uVrms   @25V      |
+| HP33120A     | NA         | 72uVrms   @10V DC out     |
+| HP6203B      | <200uVrms  | 128uVrms  @5V       |
+| TPS4000      | <0.5mVrms  | 0.1mVrms  @20V      |
